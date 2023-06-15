@@ -93,7 +93,7 @@ class DataController extends Controller
 
     public function destroy(userinfo $userinfo){
         $userinfo->delete();
-        return redirect()->route('admin.home')->with('success','User has benn deleted successfully');
+        return redirect()->route('admin.home')->with('success','User has been deleted successfully');
     }
 
 
